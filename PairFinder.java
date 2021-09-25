@@ -20,4 +20,5 @@ public class PairFinder {
         System.out.println("Такой пары чисел в массиве не существует");
         return false;
     }
+    // Cлсожность по времени O(n)
 }
