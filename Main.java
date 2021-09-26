@@ -8,6 +8,8 @@ public class Main {
         // По заданию имеем один фиксированный массив, через ввод-вывод задааем только искомое число.
         int[] arr = new int[]{1, 2, 7, -5, 10, 2, 2, -7};
         Scanner scanner = new Scanner(System.in);
+        System.out.println("По заданию имеем один фиксированный массив {1, 2, 7, -5, 10, 2, 2, -7}, через " +
+                "ввод-вывод задааем только искомое число.");
         System.out.println("Введите число");
         int numToFind = scanner.nextInt();
 	    PairFinder pairFinder = new PairFinder();
