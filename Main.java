@@ -13,4 +13,5 @@ public class Main {
 	    PairFinder pairFinder = new PairFinder();
         System.out.println(pairFinder.findNumber(arr,numToFind));
     }
+
 }
